@@ -1,0 +1,29 @@
+{
+  "name": "FZCommonUIControl",
+  "version": "0.1",
+  "summary": "FZCommonUIControl, costum UI",
+  "description": "* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "git@115.236.179.166:FZCommonUIControl.git",
+  "license": "MIT",
+  "source": {
+    "git": "git@115.236.179.166:FZCommonUIControl.git",
+    "branch": "master"
+  },
+  "authors": {
+    "liuyong": "cyonleu@!26.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "**/*.{h,m}",
+  "resources": "**/*.{jpg,json,plist,cer}",
+  "requires_arc": true,
+  "dependencies": {
+    "SwipeView": [
+      "1.3.2"
+    ],
+    "Masonry": [
+
+    ]
+  }
+}

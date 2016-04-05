@@ -1,0 +1,180 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AlipaySDK (0.1.0):
+    - AlipaySDK/libcrypto (= 0.1.0)
+  - AlipaySDK/libcrypto (0.1.0)
+  - Base64nl (1.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FWGIFImageView (0.0.9)
+  - FXKeychain (1.5.2)
+  - FZCommonCategory (0.1)
+  - FZCommonUIControl (0.1):
+    - Masonry
+    - SwipeView (= 1.3.2)
+  - FZiOSCache (0.1):
+    - TMCache (= 2.1.0)
+  - FZLocalization (0.1):
+    - MCLocalization (= 1.1)
+  - FZLoginManagerSDK (0.1.0):
+    - FXKeychain (= 1.5.2)
+  - FZNetwork (0.1):
+    - AFNetworking (= 2.5.3)
+  - GRKPageViewController (1.2)
+  - HMSegmentedControl (1.5.1)
+  - Mantle (1.5.1):
+    - Mantle/extobjc (= 1.5.1)
+  - Mantle/extobjc (1.5.1)
+  - Masonry (0.6.4)
+  - MCLocalization (1.1)
+  - MJRefresh (1.4.6)
+  - OpenUDID (1.0.0)
+  - Reachability (3.2)
+  - Realm (0.98.3):
+    - Realm/Headers (= 0.98.3)
+  - Realm/Headers (0.98.3)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - Shimmer (1.0.2)
+  - SwipeView (1.3.2)
+  - SZTextView (1.2.1)
+  - TMCache (2.1.0)
+  - XHRefreshControl (4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AlipaySDK (from `git@115.236.179.166:AlipaySDK.git`, branch `master`)
+  - Base64nl (~> 1.2)
+  - FMDB (~> 2.5)
+  - FWGIFImageView (from `git@115.236.179.166:FWGIFImageView.git`, tag `0.0.9`)
+  - FZCommonCategory (from `git@115.236.179.166:FZCommonCategory.git`, branch `master`)
+  - FZCommonUIControl (from `git@115.236.179.166:FZCommonUIControl.git`, branch `master`)
+  - FZiOSCache (from `git@115.236.179.166:FZiOSCache.git`, branch `master`)
+  - FZLocalization (from `git@115.236.179.166:FZLocalization.git`, branch `EnglishTalk_develop`)
+  - FZLoginManagerSDK (from `git@115.236.179.166:FZLoginManagerSDK.git`, branch `FunClass_1.1`)
+  - FZNetwork (from `git@115.236.179.166:FZNetwork.git`, branch `FunClass_1.1`)
+  - GRKPageViewController (= 1.2)
+  - HMSegmentedControl (from `git@115.236.179.166:HMSegmentedControl.git`, branch
+    `master`)
+  - Mantle (= 1.5.1)
+  - Masonry (~> 0.6.4)
+  - MJRefresh (= 1.4.6)
+  - OpenUDID (~> 1.0.0)
+  - Reachability (~> 3.2)
+  - Realm (= 0.98.3)
+  - SDWebImage (~> 3.7.2)
+  - Shimmer (~> 1.0.2)
+  - SwipeView (~> 1.3.2)
+  - SZTextView (= 1.2.1)
+  - XHRefreshControl (= 4.1)
+
+EXTERNAL SOURCES:
+  AlipaySDK:
+    :branch: master
+    :git: git@115.236.179.166:AlipaySDK.git
+  FWGIFImageView:
+    :git: git@115.236.179.166:FWGIFImageView.git
+    :tag: 0.0.9
+  FZCommonCategory:
+    :branch: master
+    :git: git@115.236.179.166:FZCommonCategory.git
+  FZCommonUIControl:
+    :branch: master
+    :git: git@115.236.179.166:FZCommonUIControl.git
+  FZiOSCache:
+    :branch: master
+    :git: git@115.236.179.166:FZiOSCache.git
+  FZLocalization:
+    :branch: EnglishTalk_develop
+    :git: git@115.236.179.166:FZLocalization.git
+  FZLoginManagerSDK:
+    :branch: FunClass_1.1
+    :git: git@115.236.179.166:FZLoginManagerSDK.git
+  FZNetwork:
+    :branch: FunClass_1.1
+    :git: git@115.236.179.166:FZNetwork.git
+  HMSegmentedControl:
+    :branch: master
+    :git: git@115.236.179.166:HMSegmentedControl.git
+
+CHECKOUT OPTIONS:
+  AlipaySDK:
+    :commit: dcd2ea927d1873ee0f3dbfc988155f77c5397657
+    :git: git@115.236.179.166:AlipaySDK.git
+  FWGIFImageView:
+    :git: git@115.236.179.166:FWGIFImageView.git
+    :tag: 0.0.9
+  FZCommonCategory:
+    :commit: cc9f5b39f7e83d4b0d08bd27c7c1b90e55950a86
+    :git: git@115.236.179.166:FZCommonCategory.git
+  FZCommonUIControl:
+    :commit: 74e7abca7f57ac0784fa66435c6af5f55222b254
+    :git: git@115.236.179.166:FZCommonUIControl.git
+  FZiOSCache:
+    :commit: 00bf242b280d40dc1446647c34e85e6047165a1f
+    :git: git@115.236.179.166:FZiOSCache.git
+  FZLocalization:
+    :commit: fb1861066e81ccd49e4dfb8b201f591f589c9a3b
+    :git: git@115.236.179.166:FZLocalization.git
+  FZLoginManagerSDK:
+    :commit: 0610d5423db7dcf6ea7201a5a648898d0c902f17
+    :git: git@115.236.179.166:FZLoginManagerSDK.git
+  FZNetwork:
+    :commit: af22855bb55d87ce53319f892074368b58383593
+    :git: git@115.236.179.166:FZNetwork.git
+  HMSegmentedControl:
+    :commit: 299d1256340090f77f244e42ada4ad6fc050fbd6
+    :git: git@115.236.179.166:HMSegmentedControl.git
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  AlipaySDK: e4c668e2f732e4810349cb54f069102185b63d00
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FWGIFImageView: f68a29bf8eb27ac9090f20562921e5c447ba0257
+  FXKeychain: 1a711bddc04a2bd69850dcfe297b8a43027a9980
+  FZCommonCategory: 1b7fc32e53fa12566411a7e0f90272249ee9a39c
+  FZCommonUIControl: 6eabcad595ffa795f179ab9bb91b1a4b9e52d3c4
+  FZiOSCache: b0cd5a8370a823c9b77512d26951730f7c8dba52
+  FZLocalization: c780370c7e2ed3699f1762d9aff13dea217f1ad8
+  FZLoginManagerSDK: 0c8173d139a544c85684c9f014cd63e4dd1cd2fd
+  FZNetwork: 8079fe0d84376de4802ccb443499bbd56ef2d12a
+  GRKPageViewController: a7e5fd59370ad7b5e5eff7daef4018c929e073e2
+  HMSegmentedControl: 674afb7f85323fe41c7e3b34622de067846ed593
+  Mantle: 1ec9076f091f3a2f95cb2c94939e92dba35c97e1
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MCLocalization: 059dd83669b57d9e1357545b4f6c3f25f58be243
+  MJRefresh: 2eaa3fd8f67fbb86497840fb0167446f7eb61dc7
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: c6a7d00221a2d5177810a674aebd40c5e0b70b0f
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SwipeView: bd67cfaf7760c036438446b3ccb28a3b84fce009
+  SZTextView: 906df45afd3c1b24fc5252088d5ef8061513c238
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  XHRefreshControl: d60eda767030d140bb806178eb68f44c84550ab6
+
+COCOAPODS: 0.39.0

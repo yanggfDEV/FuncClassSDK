@@ -1,0 +1,21 @@
+{
+  "name": "FZCommonCategory",
+  "version": "0.1",
+  "summary": "FZCommonCategory",
+  "description": "* Finally, don't worry about the indent, CocoaPods strips it!",
+  "homepage": "git@115.236.179.166:FZCommonCategory.git",
+  "license": "MIT",
+  "source": {
+    "git": "git@114.215.169.104:/alidata/gitwork/FZCommonCategory.git",
+    "branch": "master"
+  },
+  "authors": {
+    "huyanming": "yanming.huym@qq.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "**/*.{h,m}",
+  "resources": "**/*.{jpg,json,plist,cer}",
+  "requires_arc": true
+}

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="KGk-i7-Jjw" customClass="SearchPageHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A60-k2-9lN">
+                        <rect key="frame" x="175" y="313" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="最热">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2v-vT-SGm">
+                        <rect key="frame" x="98" y="313" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="最新">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiK-4t-asT">
+                        <rect key="frame" x="175" y="257" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="进阶">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="难度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6VG-8z-VEz">
+                        <rect key="frame" x="31" y="232" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.62352941179999999" green="0.62352941179999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-5J-25Z">
+                        <rect key="frame" x="98" y="257" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="新手">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89c-E3-3RD">
+                        <rect key="frame" x="254" y="257" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="大师">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imq-zv-eF5">
+                        <rect key="frame" x="23" y="313" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="全部">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0A1-Sr-Ndt">
+                        <rect key="frame" x="2" y="336" width="320" height="30"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MorePage_ArrowUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="QAS-Aa-sOX">
+                                <rect key="frame" x="156" y="14" width="9" height="6"/>
+                            </imageView>
+                            <button opaque="NO" tag="10003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzk-Pq-o8A">
+                                <rect key="frame" x="50" y="-3" width="220" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="排序" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u64-e2-yBP">
+                        <rect key="frame" x="31" y="290" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.62352941179999999" green="0.62352941179999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNy-Z3-aRC">
+                        <rect key="frame" x="23" y="257" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="全部">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vk7-7t-zRT">
+                        <color key="backgroundColor" red="0.79173309950000004" green="0.79173309950000004" blue="0.79173309950000004" alpha="0.54000000000000004" colorSpace="calibratedRGB"/>
+                    </view>
+                    <button opaque="NO" tag="1000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4R-ar-Owf">
+                        <rect key="frame" x="20" y="25" width="285" height="30"/>
+                        <state key="normal" backgroundImage="SearchPage_SearchButtonBack.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EIl-kV-Mox">
+                        <rect key="frame" x="175" y="101" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="纪录">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="类型" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iiP-rG-94Z">
+                        <rect key="frame" x="32" y="76" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.62352941179999999" green="0.62352941179999999" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJt-bE-Gqd">
+                        <rect key="frame" x="98" y="101" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="电影">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ioW-tG-y90">
+                        <rect key="frame" x="254" y="101" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="考试">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4E-tX-YwA">
+                        <rect key="frame" x="23" y="101" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="全部">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxp-S3-JJe">
+                        <rect key="frame" x="175" y="134" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="名人">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlh-vw-X5Q">
+                        <rect key="frame" x="98" y="134" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="发音">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QQJ-iu-jfJ">
+                        <rect key="frame" x="254" y="134" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="节日">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-Fr-yMJ">
+                        <rect key="frame" x="23" y="134" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="演讲">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzq-kW-nSI">
+                        <rect key="frame" x="175" y="165" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="动漫">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSQ-Ap-qEI">
+                        <rect key="frame" x="98" y="165" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="歌曲">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA4-Dx-Rm7">
+                        <rect key="frame" x="254" y="165" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="剧集">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KY4-t9-4lz">
+                        <rect key="frame" x="23" y="165" width="50" height="30"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <state key="normal" title="搞笑">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qad-w2-I4g">
+                        <rect key="frame" x="175" y="198" width="50" height="30"/>
+                        <state key="normal" title="专辑">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lz-e9-muD">
+                        <rect key="frame" x="98" y="198" width="50" height="30"/>
+                        <state key="normal" title="热门">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMq-a0-jJO">
+                        <rect key="frame" x="23" y="198" width="50" height="30"/>
+                        <state key="normal" title="教育">
+                            <color key="titleColor" red="0.26072225770000002" green="0.2590261069" blue="0.24590849300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="arrowbtn" destination="hzk-Pq-o8A" id="zeJ-h7-Ht2"/>
+                <outlet property="blackline" destination="vk7-7t-zRT" id="x0j-Lc-Jdq"/>
+                <outlet property="bottomBar" destination="0A1-Sr-Ndt" id="Nvh-kd-xyR"/>
+                <outlet property="levelBtn0" destination="dNy-Z3-aRC" id="jgz-sh-wzL"/>
+                <outlet property="levelBtn1" destination="HpP-5J-25Z" id="KSq-Fe-6ju"/>
+                <outlet property="levelBtn2" destination="SiK-4t-asT" id="MLL-gv-URs"/>
+                <outlet property="levelBtn3" destination="89c-E3-3RD" id="WWB-Ve-7vm"/>
+                <outlet property="searchButton" destination="y4R-ar-Owf" id="uhD-OB-QND"/>
+                <outlet property="sortBtn0" destination="Imq-zv-eF5" id="LTd-0t-cfk"/>
+                <outlet property="sortBtn1" destination="w2v-vT-SGm" id="daI-bk-vBS"/>
+                <outlet property="sortBtn2" destination="A60-k2-9lN" id="bZG-re-Tik"/>
+                <outlet property="typeBtn0" destination="T4E-tX-YwA" id="g3T-bh-4Yj"/>
+                <outlet property="typeBtn1" destination="kJt-bE-Gqd" id="b4a-7m-Tty"/>
+                <outlet property="typeBtn10" destination="Fzq-kW-nSI" id="MWm-p0-6F0"/>
+                <outlet property="typeBtn11" destination="GA4-Dx-Rm7" id="xv3-kP-zaR"/>
+                <outlet property="typeBtn12" destination="NMq-a0-jJO" id="4ag-3p-7zb"/>
+                <outlet property="typeBtn13" destination="2lz-e9-muD" id="8Sb-Oe-vXr"/>
+                <outlet property="typeBtn14" destination="qad-w2-I4g" id="sHT-f7-Z4H"/>
+                <outlet property="typeBtn2" destination="EIl-kV-Mox" id="3g4-oB-e6L"/>
+                <outlet property="typeBtn3" destination="ioW-tG-y90" id="MOn-Fs-MOR"/>
+                <outlet property="typeBtn4" destination="3ax-Fr-yMJ" id="cIS-Ry-Mba"/>
+                <outlet property="typeBtn5" destination="Mlh-vw-X5Q" id="I2o-db-A3u"/>
+                <outlet property="typeBtn6" destination="Rxp-S3-JJe" id="4oY-q9-hl2"/>
+                <outlet property="typeBtn7" destination="QQJ-iu-jfJ" id="5pJ-Df-HZB"/>
+                <outlet property="typeBtn8" destination="KY4-t9-4lz" id="wye-0N-tdx"/>
+                <outlet property="typeBtn9" destination="DSQ-Ap-qEI" id="Jw8-qx-4si"/>
+            </connections>
+            <point key="canvasLocation" x="373" y="235"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="MorePage_ArrowUp.png" width="18" height="11"/>
+        <image name="SearchPage_SearchButtonBack.png" width="570" height="60"/>
+    </resources>
+</document>

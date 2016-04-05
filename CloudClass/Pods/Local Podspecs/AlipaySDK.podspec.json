@@ -1,0 +1,32 @@
+{
+  "name": "AlipaySDK",
+  "version": "0.1.0",
+  "summary": "AlipaySDK, zhifubao",
+  "description": "*Integrate AlipaySDK message!",
+  "homepage": "git@114.215.169.104:/alidata/gitwork/AlipaySDK.git",
+  "license": "MIT",
+  "source": {
+    "git": "git@114.215.169.104:/alidata/gitwork/AlipaySDK.git",
+    "branch": "master"
+  },
+  "authors": {
+    "Patty": "yu916700yupp@163.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "public_header_files": "**/*.h",
+  "source_files": "**/*.{h,m}",
+  "resources": "AlipaySDK.bundle",
+  "ios": {
+    "vendored_frameworks": "AlipaySDK.framework"
+  },
+  "vendored_libraries": "ThirdPay/libssl.a",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "libcrypto",
+      "vendored_libraries": "ThirdPay/libcrypto.a"
+    }
+  ]
+}

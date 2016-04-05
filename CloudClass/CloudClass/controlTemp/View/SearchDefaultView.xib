@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchDefaultView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gdu-GK-vSB">
+                    <rect key="frame" x="0.0" y="10" width="320" height="171"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XZf-dD-Ddt">
+                            <rect key="frame" x="20" y="0.0" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_Video.png" translatesAutoresizingMaskIntoConstraints="NO" id="LWz-yd-xbo">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owe-7E-V5w">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="电影">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="7vC-1d-sRz"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZQ-Lz-Mlt">
+                            <rect key="frame" x="112" y="0.0" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_剧集.png" translatesAutoresizingMaskIntoConstraints="NO" id="R4K-aA-pGN">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iD8-2P-ahZ">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="剧集">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="g2C-UR-OmI"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeb-1R-x6p">
+                            <rect key="frame" x="207" y="0.0" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_cartoon.png" translatesAutoresizingMaskIntoConstraints="NO" id="UT4-MY-UkS">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnn-Pz-gs1">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="动漫">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="mpG-HD-CGR"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X6Z-39-P5Y">
+                            <rect key="frame" x="20" y="40" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_搞笑.png" translatesAutoresizingMaskIntoConstraints="NO" id="5KE-hc-5N2">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF4-G1-6az">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="搞笑">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="kVZ-DQ-Kde"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EWO-yg-y1U">
+                            <rect key="frame" x="112" y="40" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_名人.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vxx-bs-T4C">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhh-sL-thP">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="名人">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="2vk-FD-kIH"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyx-0y-1UU">
+                            <rect key="frame" x="207" y="40" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_演讲.png" translatesAutoresizingMaskIntoConstraints="NO" id="1cz-5w-XyK">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOD-LT-vhf">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="演讲">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="1CH-Tf-ce0"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osH-Dp-Fsn">
+                            <rect key="frame" x="20" y="80" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_节日.png" translatesAutoresizingMaskIntoConstraints="NO" id="rnZ-ss-jyq">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIb-gg-KCb">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="节日">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="6d7-Nl-hEI"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LeC-8W-IlT">
+                            <rect key="frame" x="112" y="80" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_发音.png" translatesAutoresizingMaskIntoConstraints="NO" id="aey-7P-elY">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj6-aM-iW0">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="发音">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="sce-T4-cwE"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFd-wY-hkN">
+                            <rect key="frame" x="207" y="80" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_教育.png" translatesAutoresizingMaskIntoConstraints="NO" id="voK-71-CtI">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hph-yO-ZkM">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="教育">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="8W5-mH-ekp"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qv-bY-eP6">
+                            <rect key="frame" x="20" y="120" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_Notes.png" translatesAutoresizingMaskIntoConstraints="NO" id="qkr-Re-uQw">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkV-Gt-zkv">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="歌曲">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="HX6-cx-FIK"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y8n-nd-P6o">
+                            <rect key="frame" x="112" y="120" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_考试.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wke-En-ugT">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9YS-Gd-yiM">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="考试">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="f68-I6-kzp"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sz8-KN-i2U">
+                            <rect key="frame" x="207" y="120" width="88" height="40"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hashTag_Camera.png" translatesAutoresizingMaskIntoConstraints="NO" id="cpP-IF-BcG">
+                                    <rect key="frame" x="15" y="13" width="14" height="14"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAk-Lz-hdl">
+                                    <rect key="frame" x="20" y="-2" width="64" height="44"/>
+                                    <state key="normal" title="记录">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="hashTagTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="cbL-DJ-ayP"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="HPu-Wq-MEZ">
+                            <rect key="frame" x="10" y="169" width="310" height="3"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大家都在搜:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxX-Wk-vn0">
+                    <rect key="frame" x="13" y="189" width="149" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.21624490489130432" green="0.21624490489130432" blue="0.21624490489130432" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OdH-zn-ToI">
+                    <rect key="frame" x="24" y="224" width="297" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xe-BA-gdt">
+                            <rect key="frame" x="2" y="7" width="14" height="14"/>
+                            <color key="backgroundColor" red="0.13995298947339255" green="0.66666666666666663" blue="0.14331130947021023" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ens-LY-Fs2">
+                            <rect key="frame" x="25" y="0.0" width="164" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fTt-yK-XcH">
+                    <rect key="frame" x="24" y="247" width="297" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGz-Qe-6uM">
+                            <rect key="frame" x="2" y="7" width="14" height="14"/>
+                            <color key="backgroundColor" red="0.13995298950000001" green="0.66666666669999997" blue="0.14331130950000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2S-nN-gGS">
+                            <rect key="frame" x="25" y="0.0" width="164" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="81g-IX-Oqv">
+                    <rect key="frame" x="24" y="268" width="297" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXp-iN-KPi">
+                            <rect key="frame" x="2" y="7" width="14" height="14"/>
+                            <color key="backgroundColor" red="0.13995298950000001" green="0.66666666669999997" blue="0.14331130950000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w8B-BJ-Lvi">
+                            <rect key="frame" x="25" y="0.0" width="164" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aby-Jp-6qm">
+                    <rect key="frame" x="24" y="291" width="297" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zR0-jS-alx">
+                            <rect key="frame" x="2" y="7" width="14" height="14"/>
+                            <color key="backgroundColor" red="0.13995298950000001" green="0.66666666669999997" blue="0.14331130950000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofm-dl-g5n">
+                            <rect key="frame" x="25" y="0.0" width="164" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UdJ-y4-D8v">
+                    <rect key="frame" x="24" y="314" width="297" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpB-yF-JJm">
+                            <rect key="frame" x="2" y="7" width="14" height="14"/>
+                            <color key="backgroundColor" red="0.13995298950000001" green="0.66666666669999997" blue="0.14331130950000001" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDW-S9-6kQ">
+                            <rect key="frame" x="25" y="0.0" width="164" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="hotWord0" destination="Ens-LY-Fs2" id="c2k-ZY-8HX"/>
+                <outlet property="hotWord1" destination="b2S-nN-gGS" id="GOn-5t-bsS"/>
+                <outlet property="hotWord2" destination="w8B-BJ-Lvi" id="PzB-kd-h0I"/>
+                <outlet property="hotWord3" destination="Ofm-dl-g5n" id="jcO-mu-uaD"/>
+                <outlet property="hotWord4" destination="sDW-S9-6kQ" id="b4y-od-Wlo"/>
+                <outlet property="searchLabel" destination="WxX-Wk-vn0" id="8Na-4p-fvW"/>
+                <outlet property="tag0" destination="8xe-BA-gdt" id="CJP-KO-nw6"/>
+                <outlet property="tag1" destination="TGz-Qe-6uM" id="duX-hs-2Ps"/>
+                <outlet property="tag2" destination="nXp-iN-KPi" id="zEW-DQ-EF9"/>
+                <outlet property="tag3" destination="zR0-jS-alx" id="8Jn-SQ-VmE"/>
+                <outlet property="tag4" destination="OpB-yF-JJm" id="Py8-k3-VZc"/>
+            </connections>
+            <point key="canvasLocation" x="76" y="49"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="hashTag_Camera.png" width="18" height="11"/>
+        <image name="hashTag_Notes.png" width="14" height="13"/>
+        <image name="hashTag_Video.png" width="14" height="16"/>
+        <image name="hashTag_cartoon.png" width="13" height="16"/>
+        <image name="hashTag_剧集.png" width="20" height="16"/>
+        <image name="hashTag_发音.png" width="18" height="9"/>
+        <image name="hashTag_名人.png" width="16" height="16"/>
+        <image name="hashTag_搞笑.png" width="16" height="16"/>
+        <image name="hashTag_教育.png" width="20" height="15"/>
+        <image name="hashTag_演讲.png" width="9" height="16"/>
+        <image name="hashTag_考试.png" width="13" height="16"/>
+        <image name="hashTag_节日.png" width="17" height="15"/>
+        <image name="search_line.png" width="620" height="2"/>
+    </resources>
+</document>

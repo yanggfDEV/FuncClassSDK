@@ -1,0 +1,23 @@
+{
+  "name": "HMSegmentedControl",
+  "version": "1.5.1",
+  "summary": "A drop-in replacement for UISegmentedControl mimicking the style of the one in Google Currents and various other Google products.",
+  "homepage": "git@114.215.169.104:/alidata/gitwork/HMSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Hesham Abd-Elmegid": "hesham.abdelmegid@gmail.com"
+  },
+  "source": {
+    "git": "git@114.215.169.104:/alidata/gitwork/HMSegmentedControl",
+    "tag": "v1.5.3"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "HMSegmentedControl/*.{h,m}",
+  "frameworks": "QuartzCore"
+}

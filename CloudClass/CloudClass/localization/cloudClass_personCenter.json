@@ -1,0 +1,15 @@
+{
+    "config_data": [
+                    {
+                    "section_identifier": "personCenter",
+                    "section_type" : "normal",
+                    "configs": [
+                                {
+                                "identifier": "personCenter",
+                                "icon": "i_icon_myclass",
+                                "title": "我的课程"
+                                }
+                                ]
+                    }
+                    ]
+}

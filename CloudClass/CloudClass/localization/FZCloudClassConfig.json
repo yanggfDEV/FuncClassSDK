@@ -1,0 +1,102 @@
+{
+    "user_login": {
+        "protocol":"https",
+        "control": "user",
+        "action": "login"
+    },
+    "teacher_list": {
+        "protocol":"https",
+        "control": "course",
+        "action": "teacher_list2"
+    },
+    "teacher_info": {
+        "protocol":"https",
+        "control": "course",
+        "action": "teacher_info2"
+    },
+    "course_list": {
+        "protocol":"https",
+        "control": "course",
+        "action": "course_list2"
+    },
+    "mobile_code": {
+        "protocol":"https",
+        "control": "user",
+        "action": "mobile_code"
+    },
+    "register": {
+        "protocol":"https",
+        "control": "user",
+        "action": "register"
+    },
+    "reset_password": {
+        "protocol":"https",
+        "control": "user",
+        "action": "reset_password"
+    },
+    "change_info": {
+        "protocol":"https",
+        "control": "user",
+        "action": "change_info"
+    },
+    "upyun_sign": {
+        "protocol":"https",
+        "control": "user",
+        "action": "upyun_sign"
+    },
+    "course_bespeak_list": {
+        "protocol":"https",
+        "control": "course",
+        "action": "course_bespeak_list2"
+    },
+    "course_bespeak": {
+        "protocol":"https",
+        "control": "course",
+        "action": "course_bespeak2"
+    },
+    "user_jpushinfo": {
+        "protocol":"https",
+        "control": "user",
+        "action": "user_jpushinfo"
+    },
+    "std_justalksign": {
+        "protocol":"https",
+        "control": "public",
+        "action": "std_justalksign"
+    },
+    "user_auth_login": {
+        "protocol":"https",
+        "control": "user",
+        "action": "auth_login"
+    },
+    "in_course_meeting": {
+        "protocol":"https",
+        "control": "course",
+        "action": "in_course_meeting"
+    },
+    "pub_course_list": {
+        "protocol":"https",
+        "control": "course",
+        "action": "pub_course_list"
+    },
+    "pub_course_info": {
+        "protocol":"https",
+        "control": "course",
+        "action": "pub_course_info"
+    },
+    "pub_course_sub_list": {
+        "protocol":"https",
+        "control": "course",
+        "action": "pub_course_sub_list"
+    },
+    "course_deposit": {
+        "protocol":"https",
+        "control": "user",
+        "action": "deposit"
+    },
+    "checkremainnum": {
+        "protocol":"https",
+        "control": "user",
+        "action": "checkremainnum"
+    }
+}

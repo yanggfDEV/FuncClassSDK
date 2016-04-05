@@ -1,0 +1,25 @@
+{
+  "name": "FZLoginManagerSDK",
+  "version": "0.1.0",
+  "summary": "Manager weibo , QQ, WeChat login",
+  "description": "Manager weibo , QQ, WeChat login, save user info, read and write",
+  "homepage": "git@114.215.169.104:/alidata/gitwork/FZLoginManagerSDK.git",
+  "license": "MIT",
+  "source": {
+    "git": "git@114.215.169.104:/alidata/gitwork/FZLoginManagerSDK.git",
+    "branch": "master"
+  },
+  "authors": {
+    "CyonLeu": "cyonleu@126.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": "*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "FXKeychain": [
+      "1.5.2"
+    ]
+  }
+}

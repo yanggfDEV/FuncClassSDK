@@ -1,0 +1,26 @@
+{
+  "name": "FWGIFImageView",
+  "version": "0.0.9",
+  "summary": "Play GIF image use UIImageView low memory.",
+  "homepage": "git@114.215.169.104:/alidata/gitwork/fwgifimageview.git",
+  "authors": {
+    "CyonLeu": "cyonleu@126.com"
+  },
+  "social_media_url": "http://twitter.com/CyonLeu",
+  "platforms": {
+    "ios": null
+  },
+  "source": {
+    "git": "git@114.215.169.104:/alidata/gitwork/fwgifimageview.git",
+    "tag": "0.0.9"
+  },
+  "source_files": [
+    "FWGIFImageView",
+    "FWGIFImageView/*.{h,m}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "ImageIO"
+  ],
+  "requires_arc": true
+}

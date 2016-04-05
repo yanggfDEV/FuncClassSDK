@@ -1,0 +1,161 @@
+//
+//  PrefixHeader.pch
+//  CloudClass
+//
+//  Created by guangfu yang on 16/1/27.
+//  Copyright © 2016年 yangguangfu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define kUniqueIdentifier ([[[UIDevice currentDevice] identifierForVendor] UUIDString])
+
+#import "FZLocalization.h"
+#import <FZAPIGenerate.h>
+#import <UIColor+Hex.h>
+#import <UIImageView+WebCache.h>
+#import "FZCommonViewController.h"
+#import "FZUtils.h"
+#import "PublicMacros.h"
+#import "FZLoginUser.h"
+#import "FZLoginManager.h"
+#import "FZCommonHeader.h"
+#import "UIImage+plus.h"
+#import "UIView+DNImagePicker.h"
+#import "NSString+plus.h"
+#import "NSFileManager+plus.h"
+#import "RIButtonItem.h"
+#import "UIAlertView+Blocks.h"
+#import <Masonry.h>
+#import <Mantle.h>
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import "FZCommonTool.h"
+#import "DataBaseManager.h"
+#import "SZTextView.h"
+#import <Reachability.h>
+#import <AlipaySDK/AlipaySDK.h>
+#import "FZAudioTool.h"
+#import "MBProgressHUD+FZ.h"
+//文字聊天
+#import "FZJusTalkConfig.h"
+#import "FCVideoTalkProtocol.h"
+#import "FZJusTalkHeader.h"
+#import "FCTextChatDetailManager.h"
+#import "FCTextChatViewController.h"
+
+//视频文件
+#import "grape/zmf.h"
+#import "lemon/service/rcs/mtc_api.h"
+#import "lemon/service/rcs/mtc_ue.h"
+#import "lemon/service/rcs/mtc_ue_db.h"
+#import "lemon/service/rcs/mtc_user.h"
+#import "lemon/service/rcs/mtc_prov_db.h"
+#import "lemon/service/rcs/mtc_prof_db.h"
+#import "lemon/service/rcs/mtc_im.h"
+#import "lemon/service/rcs/mtc_ver.h"
+#import "lemon/service/rcs/mtc_conf.h"
+#import "lemon/service/rcs/mtc_dsr.h"
+
+#import "grape/zmf.h"
+#import "lemon/service/rcs/mtc_api.h"
+#import "lemon/service/rcs/mtc_ue.h"
+#import "lemon/service/rcs/mtc_ue_db.h"
+#import "lemon/service/rcs/mtc_conf.h"
+#import "lemon/service/rcs/mtc_user.h"
+#import "lemon/service/rcs/mtc_prov_db.h"
+#import "lemon/service/rcs/mtc_prof_db.h"
+#import "avatar/zos/zos_osenv.h"
+#import "avatar/zos/os/ios/zpios_osenv.h"
+#import "lemon/service/rcs/mtc_doodle.h"
+#import "lemon/service/rcs/mtc_dsr.h"
+
+
+#import "avatar/zos/zos_osenv.h"
+#import "avatar/zos/os/ios/zpios_osenv.h"
+#import "lemon/service/rcs/mtc_doodle.h"
+
+
+//视频SDK头文件
+#import <JusLogin/JusLogin.h>
+//#import "JusMeeting/JusMeeting.h"
+#import <JusDoodle/JusDoodle.h>
+//PPT 的SDK
+typedef unsigned int JCallId;
+typedef unsigned int JStatusCode;
+
+#import "JusDocManager.h"
+#import "JusDocSession.h"
+#import "JusDocImplement.h"
+
+//友盟统计
+#import "MobClick.h"
+#import "MobClickSocialAnalytics.h"
+//JusMeettingBudle
+typedef unsigned int JMeetingId;
+typedef unsigned int JMeetingStatusCode;
+
+#import "MtcConfBackgroundTask.h"
+#import "MtcMeetingDelegate.h"
+#import "MtcMeetingRing.h"
+#import "MeetingStrings.h"
+
+
+
+#import "FZJusMeettingSDKManager.h"
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import "Strings.h"
+//#import "JusDocManager.h"
+//#import<JusDoc/JusDocManager.h>
+typedef unsigned int JCallId;
+typedef unsigned int JStatusCode;
+typedef ZUINT JId;
+
+
+#define MY_APP_KEY "47b41670de76f9d174044096"
+#define MY_APP_KEY_TEST "e165a8987cb65334f5b45096"
+
+
+#define JStatusCodeFormat "%d"
+#define JStatusCodeFromNumber(number) [number intValue]
+#define JStatusCodeToNumber(statusCode) [NSNumber numberWithInt:statusCode]
+
+#define JIdFormat "%u"
+#define JIdFromNumber(number) [number unsignedIntValue]
+#define JIdToNumber(jid) [NSNumber numberWithUnsignedInt:jid]
+
+#define JCallIdFormat "%u"
+#define JCallIdFromNumber(number) [number unsignedIntValue]
+#define JCallIdToNumber(callId) [NSNumber numberWithUnsignedInt:callId]
+
+//JusMeettingBudle
+#define PRINT(fmt,arg...) Mtc_AnyLogInfoStr("Batter","%s "fmt,__func__,##arg);
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#define IS_IPHONE5 ([[UIScreen mainScreen] bounds].size.height == 568)
+#define IS_IPHONE6 ([[UIScreen mainScreen] bounds].size.height >= 667)
+#define IS_IPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+
+
+#endif
+

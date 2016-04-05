@@ -1,0 +1,36 @@
+{
+    "config_data": [
+                    {
+                    "section_identifier": "user_settingPassWord",
+                    "section_type" : "user_settingPassWord",
+                    "configs": [
+                                {
+                                "identifier": "user_info",
+                                "icon": "yueke_img_head",
+                                "title": "修改登入密码"
+                                }
+                                ]
+                    },
+                    {
+                    "section_identifier": "user_info",
+                    "section_type" : "normal",
+                    "configs": [
+                                {
+                                "identifier": "user_nickname",
+                                "icon": "",
+                                "title": "给我们评价"
+                                },
+                                {
+                                "identifier": "user_head",
+                                "icon": "yueke_img_head",
+                                "title": "联系我们"
+                                },
+                                {
+                                "identifier": "user_head",
+                                "icon": "yueke_img_head",
+                                "title": "关于我们"
+                                }
+                                ]
+                    }
+                    ]
+}

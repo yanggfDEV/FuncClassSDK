@@ -1,0 +1,20 @@
+{
+    "config_data": [
+                    {
+                    "section_identifier": "user_info",
+                    "section_type" : "normal",
+                    "configs": [
+                                {
+                                "identifier": "user_head",
+                                "icon": "yueke_img_head",
+                                "title": "头像"
+                                },
+                                {
+                                "identifier": "user_nickname",
+                                "icon": "",
+                                "title": "昵称"
+                                }
+                                ]
+                    }
+                    ]
+}

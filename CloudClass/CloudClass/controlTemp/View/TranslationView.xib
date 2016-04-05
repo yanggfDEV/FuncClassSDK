@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TranslationView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word_trans_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="j0B-uN-FZc">
+                    <rect key="frame" x="4" y="0.0" width="312" height="135"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="word" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZM-gf-pKb">
+                    <rect key="frame" x="25" y="3" width="188" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="188" id="JEg-AM-nmw"/>
+                        <constraint firstAttribute="height" constant="21" id="bLM-RW-6Ok"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word_trans_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="i6J-aQ-sAd">
+                    <rect key="frame" x="11" y="85" width="296" height="3"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="pKm-UA-Tgi"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0B-Su-PXX">
+                    <rect key="frame" x="55" y="95" width="59" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="59" id="ayB-cT-nhM"/>
+                        <constraint firstAttribute="height" constant="38" id="x48-H0-RYU"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="word_trans_发音.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="prononceButtonTap:" destination="iN0-l3-epB" eventType="touchUpInside" id="Wrl-vm-c8g"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vmb-Pt-AjM">
+                    <rect key="frame" x="188" y="96" width="112" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="GdZ-vC-zqq"/>
+                        <constraint firstAttribute="width" constant="112" id="IGo-a3-ip5"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="wordAddButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="hdx-nJ-fw0"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="正在为您查询..." translatesAutoresizingMaskIntoConstraints="NO" id="u4c-f7-jZG">
+                    <rect key="frame" x="20" y="23" width="287" height="54"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="Qgq-0e-zWa"/>
+                    </constraints>
+                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="2F3-Cx-1Ag">
+                    <rect key="frame" x="191" y="3" width="121" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="121" id="DGi-ZN-Vq3"/>
+                        <constraint firstAttribute="height" constant="21" id="kjr-Cd-aic"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.60774075260000004" green="0.60774075260000004" blue="0.60774075260000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="C0B-Su-PXX" firstAttribute="top" secondItem="i6J-aQ-sAd" secondAttribute="bottom" constant="7" id="2g2-dL-sX1"/>
+                <constraint firstAttribute="bottom" secondItem="j0B-uN-FZc" secondAttribute="bottom" id="CKM-2l-rpi"/>
+                <constraint firstItem="2F3-Cx-1Ag" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="CUP-tk-Vs8"/>
+                <constraint firstAttribute="trailing" secondItem="i6J-aQ-sAd" secondAttribute="trailing" constant="13" id="D1F-nT-vkT"/>
+                <constraint firstAttribute="trailing" secondItem="2F3-Cx-1Ag" secondAttribute="trailing" constant="8" id="FcG-ja-c0y"/>
+                <constraint firstItem="i6J-aQ-sAd" firstAttribute="top" secondItem="u4c-f7-jZG" secondAttribute="bottom" constant="8" id="N3s-Fe-PoY"/>
+                <constraint firstItem="XZM-gf-pKb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="RaE-Ja-Kf4"/>
+                <constraint firstItem="Vmb-Pt-AjM" firstAttribute="top" secondItem="i6J-aQ-sAd" secondAttribute="bottom" constant="8" id="Sex-dh-7ao"/>
+                <constraint firstAttribute="trailing" secondItem="j0B-uN-FZc" secondAttribute="trailing" constant="4" id="Tan-9e-mlz"/>
+                <constraint firstItem="u4c-f7-jZG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Ti4-Hg-vFt"/>
+                <constraint firstItem="C0B-Su-PXX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="55" id="U6H-E3-E5R"/>
+                <constraint firstItem="XZM-gf-pKb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="VEP-yU-iJg"/>
+                <constraint firstAttribute="trailing" secondItem="u4c-f7-jZG" secondAttribute="trailing" constant="13" id="aIo-Ld-lNd"/>
+                <constraint firstItem="j0B-uN-FZc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gtm-c8-WEv"/>
+                <constraint firstItem="i6J-aQ-sAd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="11" id="iNP-X7-9M2"/>
+                <constraint firstAttribute="trailing" secondItem="Vmb-Pt-AjM" secondAttribute="trailing" constant="20" id="j6m-ep-JE1"/>
+                <constraint firstItem="j0B-uN-FZc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="4" id="osh-F5-Lcr"/>
+                <constraint firstItem="u4c-f7-jZG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="23" id="viH-Od-o8m"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addWordButton" destination="Vmb-Pt-AjM" id="oGs-Pk-kma"/>
+                <outlet property="phoneticSymbol" destination="2F3-Cx-1Ag" id="rum-8u-df8"/>
+                <outlet property="prononceButton" destination="C0B-Su-PXX" id="oSa-RK-ytI"/>
+                <outlet property="resultTextView" destination="u4c-f7-jZG" id="0O1-Ju-ZrK"/>
+                <outlet property="wordLabel" destination="XZM-gf-pKb" id="Nda-CT-u9k"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="word_trans_bg.png" width="300" height="135"/>
+        <image name="word_trans_line.png" width="290" height="1"/>
+        <image name="word_trans_发音.png" width="57" height="37"/>
+    </resources>
+</document>
